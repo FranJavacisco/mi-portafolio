@@ -1,50 +1,81 @@
-# React + TypeScript + Vite
+# Mi Portafolio Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Descripción
+Portafolio personal desarrollado con React, TypeScript y Vite, presentando una interfaz moderna y animaciones fluidas. El sitio está diseñado para mostrar proyectos y habilidades de manera interactiva y visualmente atractiva.
 
-Currently, two official plugins are available:
+## ✨ Características
+- Diseño responsivo
+- Animaciones suaves con Framer Motion
+- Tema claro/oscuro
+- Efectos visuales modernos
+- Optimizado para rendimiento
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías Utilizadas
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Heroicons
+- React Scroll
 
-## Expanding the ESLint configuration
+## 📦 Instalación
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+1. Clona el repositorio:
+```bash
+git clone https://github.com/tuusuario/mi-portafolio.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. Instala las dependencias:
+```bash
+cd mi-portafolio
+npm install
 ```
+
+3. Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
+
+## 🚀 Despliegue
+Para desplegar en GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+## 🔧 Scripts Disponibles
+- `npm run dev`: Inicia el servidor de desarrollo
+- `npm run build`: Construye el proyecto para producción
+- `npm run preview`: Previsualiza la construcción de producción
+- `npm run deploy`: Despliega en GitHub Pages
+
+## 📝 Personalización
+1. Modifica el contenido en `Hero.tsx`
+2. Ajusta los estilos en `index.css`
+3. Actualiza las imágenes en la carpeta `public/assets`
+
+## 🎨 Estilos y Temas
+El proyecto utiliza Tailwind CSS para los estilos y soporta modo oscuro/claro. Los colores principales y temas se pueden ajustar en `tailwind.config.js`.
+
+## 🌐 Demo en Vivo
+[Ver Demo](https://franjavacisco.github.io/mi-portafolio/)
+
+## 📄 Licencia
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para detalles.
+
+## 👤 Autor
+- Nombre: Francisco Lopez
+- LinkedIn: [Francisco A. Lopez](https://www.linkedin.com/in/francisco-lopez-cl/)
+- Portfolio: [PanchoDev.com](https://franjavacisco.github.io/mi-portafolio/)
+
+## 🤝 Contribuciones
+Las contribuciones son bienvenidas. Para cambios importantes:
+1. Haz fork del repositorio
+2. Crea tu rama de características
+3. Haz commit de tus cambios
+4. Haz push a la rama
+5. Abre un Pull Request
+
+---
+⭐️ Si te gusta este proyecto, ¡no olvides darle una estrella!
