@@ -87,7 +87,7 @@ const Hero = ({ productName = "PanchoDev" }: HeroProps) => {
               className="relative w-[80%] lg:w-full aspect-square"
             >
               <img
-                src="/assets/hero-image.png"
+                src="public/assets/hero-image.png"
                 alt="Creative Developer"
                 className="w-full h-full object-contain filter drop-shadow-[0_0_15px_rgba(139,92,246,0.3)]"
               />
