@@ -17,8 +17,8 @@ export default function HeroImage() {
           className="relative z-20 w-full h-full bg-gray-800 rounded-2xl overflow-hidden"
         >
           <img
-            src="/creative-avatar.png" // Asegúrate de añadir una imagen aquí
-            alt="Creative Developer"
+            src="assets/hero-image.png" // Asegúrate de añadir una imagen aquí
+            alt="hero image"
             className="w-full h-full object-cover"
           />
           
