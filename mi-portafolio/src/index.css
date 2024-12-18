@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @keyframes scan {
+        from {
+            transform: translateY(-100%);
+        }
+
+        to {
+            transform: translateY(100%);
+        }
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .animate-scan {
+        animation: scan 4s linear infinite;
+    }
+
+    .animate-gradient {
+        animation: gradient 15s ease infinite;
+    }
+
+    .text-shadow-neon {
+        text-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+    }
+
+    .writing-mode-vertical {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+}
